@@ -1,0 +1,201 @@
+/* Global Styles for All Pages */
+body {
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Title Header Style (same as before) */
+.title-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+.title-link {
+    font-size: 48px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Content Section Style */
+.content-container {
+    margin-top: 150px; /* Adjust to keep space for the fixed header */
+    padding: 20px;
+    text-align: center;
+}
+
+.section-header {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.section-text {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.mixcloud-player {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 110px;
+    z-index: 1000;
+}
+
+.iimage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.homebutton {
+    position: fixed;  /* Keeps it in the same place while scrolling */
+    top: 20px;        /* Distance from the top */
+    right: 20px;      /* Distance from the right */
+    width: 100px;
+    height: 100px;    
+    object-fit: contain;
+    display: block;
+}
+
+.webimage {
+    position: fixed;
+    object-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+}
+
+.video-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.25); /* Black overlay with 50% opacity */
+    z-index: -2;
+}
+
+.xvideo-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    z-index: -2;
+}
+
+body {
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+
+/* Fixed header container */
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Full width */
+    position: fixed;
+    top: 0;
+    z-index: 10; /* Ensures header stays on top */
+    background-color: rgba(0, 0, 0, 0.7); /* Optional background for header */
+}
+
+.header-container ul {
+    display: flex;
+    list-style-type: none;
+    gap: 37px; /* Spacing between headers */
+}
+
+.header-container ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255); /* White text */
+    font-size: 1.5rem; /* Adjust text size */
+    font-weight: lighter;
+    transition: color 0.3s ease;
+}
+
+/* Scrollable content container */
+.content {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.scrollable-text {
+    width: 33%; /* Width of the text container */
+    max-height: 100vh; /* Height set to 1/3rd of the viewport */
+    overflow-y: auto; /* Enable vertical scrolling */
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #ffffff; /* Text color */
+}
+
+.scrollable-text::-webkit-scrollbar {
+    width: 0px;  /* Set the width to 0 to hide the scrollbar */
+    height: 0px; /* Set the height to 0 to hide the horizontal scrollbar */
+}
+
+/* Optional: Style for text inside scrollable area */
+.scrollable-text h1 {
+    font-weight: lighter;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.scrollable-text p {
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+  }
+
+  /* The word that triggers the hover effect */
+.hover-word {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+    position: relative;
+    text-decoration: none;
+}
+
+/* The hidden image */
+.hidden-image {
+    position: absolute;
+    display: none;
+    width: 150px;  /* Adjust as needed */
+    height: auto;
+}
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title>
+    <link rel="stylesheet" href="Introduction.css"> <!-- Link to your external stylesheet -->
+</head>
+<body>
+
+    <!-- Add the Mixcloud Player at the bottom of the page (persistent across all pages) -->
+    <div class="mixcloud-player">
+        <iframe 
+            width="300" 
+            height="120" 
+            src="https://www.mixcloud.com/widget/iframe/?feed=https%3A%2F%2Fwww.mixcloud.com%2FVoicesRadio%2Fthomas-wallage-050125-voices-radio%2F&light=1&hide_cover=1" 
+            frameborder="0" 
+            allow="autoplay">
+        </iframe>
+    </div>
+
+    <img src="cross.png" alt="Intro Image" class="iimage">
+    <img src="webimages/image9.jpg" alt="Intro Image" class="webimage">
+
+    <div class="xvideo-overlay"></div>
+
+    <div class="content">
+        <div class="scrollable-text">
+            <a href="Unit5Main.html"><h1>Reference List</h1></a>
+            <p>Cambridge Dictionary (n.d.) Détournement. Available at: https://dictionary.cambridge.org/dictionary/french-english/detournement (Accessed: 15th January, 2025)</p>
+            <br>
+            <p>Debord, G. (1967) The society of the spectacle. Translated by Black & Red. Available at: https://www.marxists.org/reference/archive/debord/society.htm (Accessed: 19th January, 2025)</p>
+            <br>
+            <p>Debord, G. and Wolman, G.J. (1956) Methods of détournement. Available at: https://pzacad.pitzer.edu/~mma/teaching/MS80/readings/detournement.pdf (Accessed: 22nd January, 2025)</p>
+            <br>
+            <p>Eno, B. (2006) Brian Eno: How To Beat Creative Block, BBC Click. Available at: https://www.youtube.com/watch?v=tURRSJ-q4bg (Accessed: 10th January 2025)</p>
+            <br>
+            <p>Glaser, M. (n.d.) 'Computers are to design as microwaves are to cooking.' Available at: https://webdesignerdepot.com/was-milton-glaser-right-about-computers-destroying-design/ (Accessed: 15th January, 2025)</p>
+            <br>
+            <p>Ludovico, A (2012) Post-Digital Print. Netherlands: Onomatopee.</p>
+            <br>
+            <p>Massiah, J. (2021) Afraid. Available at: [https://jamesmassiah.bandcamp.com/album/new-poems-volume-two] (Accessed: 14th December, 2024)</p>
+            <br>
+            <p>Massiah, J. (2018) James Massiah - A Real Poem (aka NOT Spoken Word). Available at: https://www.youtube.com/watch?v=lQkFspzLyaY (Accessed: 13th December, 2024)</p>
+            <br>
+            <p>Maurer, L., Wouters, R., Paulus, E. and Puckey, J. (2008) Conditional Design Manifesto. Available at: https://conditionaldesign.org/ (Accessed: 20th January, 2025)</p>
+            <br>
+            <p>Posavec, S. and Lupi, G. (n.d.) Dear Data. Available at: https://www.dear-data.com/theproject (Accessed: 8th December, 2024)</p>
+            <br>
+            <br>
+            <br>
+            <a href="Unit5title.html"><h1>..............</h1></a>
+        </div>
+    </div>
+
+</body>
+</html>
